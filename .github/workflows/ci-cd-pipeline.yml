@@ -27,3 +27,4 @@ jobs:
 
       - name: Executar testes
         run: python -m unittest -v test_app.py
+        working-directory: ./devflow-ecommerce
